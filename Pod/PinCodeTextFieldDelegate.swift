@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol PinCodeTextFieldDelegate: class {
+@objc public protocol PinCodeTextFieldDelegate: class {
     func textFieldShouldBeginEditing(_ textField: PinCodeTextField) -> Bool // return false to disallow editing.
     
     func textFieldDidBeginEditing(_ textField: PinCodeTextField) // became first responder
