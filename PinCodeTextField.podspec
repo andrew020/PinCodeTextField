@@ -20,4 +20,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tkach/PinCodeTextField.git", :tag => "#{s.version}" }
   s.source_files  = ["Pod/*.{swift}", "Pod/**/*.{swift}" ]
 
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+
 end
